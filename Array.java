@@ -7,8 +7,7 @@ public class Array {
 		int [] array=new int[20];
 		
 		for (int i = 0; i < array.length; i++) {
-			int m=(int)(Math.random()*10);
-			array[i]=m;
+			array[i]=(int) Math.random()*11;
 			
 		}
 		
