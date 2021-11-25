@@ -12,7 +12,19 @@ public class Array {
 			System.out.println(array[i] + " ");
 
 		}
+		
+		for(int i=0;i<array.length;i++){int m=0;
+			for(int j=0;j<array.length;j++){
+				
+				if (i==array[j]){m++;
 
-	}
+				}
+				System.out.println("El numero "+i+" aparece"+m+"veces");
+			}
+		}
+			
+		}
+
+}
 
 }
